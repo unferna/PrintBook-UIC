@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A880B9BB2693CF8F002B5964 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A880B9BA2693CF8F002B5964 /* UIColor+Extensions.swift */; };
+		A880B9C22693D18C002B5964 /* PresentationBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = A880B9C12693D18C002B5964 /* PresentationBook.swift */; };
+		A880B9C42693D542002B5964 /* BookItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A880B9C32693D542002B5964 /* BookItemCell.swift */; };
+		A89D7EE72695D1BA00D340AD /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EDF2695D1BA00D340AD /* Lora-Bold.ttf */; };
+		A89D7EE82695D1BA00D340AD /* Lora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EE02695D1BA00D340AD /* Lora-Medium.ttf */; };
+		A89D7EE92695D1BA00D340AD /* Lora-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EE12695D1BA00D340AD /* Lora-Italic.ttf */; };
+		A89D7EEA2695D1BA00D340AD /* Lora-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EE22695D1BA00D340AD /* Lora-MediumItalic.ttf */; };
+		A89D7EEB2695D1BA00D340AD /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EE32695D1BA00D340AD /* Lora-Regular.ttf */; };
+		A89D7EEC2695D1BA00D340AD /* Lora-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EE42695D1BA00D340AD /* Lora-BoldItalic.ttf */; };
+		A89D7EED2695D1BA00D340AD /* Lora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EE52695D1BA00D340AD /* Lora-SemiBold.ttf */; };
+		A89D7EEE2695D1BA00D340AD /* Lora-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EE62695D1BA00D340AD /* Lora-SemiBoldItalic.ttf */; };
+		A89D7EF92695D1C300D340AD /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EEF2695D1C200D340AD /* OpenSans-Regular.ttf */; };
+		A89D7EFA2695D1C300D340AD /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EF02695D1C200D340AD /* OpenSans-Bold.ttf */; };
+		A89D7EFB2695D1C300D340AD /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EF12695D1C200D340AD /* OpenSans-LightItalic.ttf */; };
+		A89D7EFC2695D1C300D340AD /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EF22695D1C200D340AD /* OpenSans-BoldItalic.ttf */; };
+		A89D7EFD2695D1C300D340AD /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EF32695D1C200D340AD /* OpenSans-Light.ttf */; };
+		A89D7EFE2695D1C300D340AD /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EF42695D1C200D340AD /* OpenSans-Italic.ttf */; };
+		A89D7EFF2695D1C300D340AD /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EF52695D1C200D340AD /* OpenSans-ExtraBold.ttf */; };
+		A89D7F002695D1C300D340AD /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EF62695D1C200D340AD /* OpenSans-SemiBold.ttf */; };
+		A89D7F012695D1C300D340AD /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EF72695D1C200D340AD /* OpenSans-SemiBoldItalic.ttf */; };
+		A89D7F022695D1C300D340AD /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EF82695D1C300D340AD /* OpenSans-ExtraBoldItalic.ttf */; };
+		A89D7F042695D24A00D340AD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D7F032695D24A00D340AD /* Utils.swift */; };
+		A8F4563D2693C43500763ADA /* Print_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F4563C2693C43500763ADA /* Print_BookApp.swift */; };
+		A8F4563F2693C43500763ADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F4563E2693C43500763ADA /* ContentView.swift */; };
+		A8F456412693C43700763ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F456402693C43700763ADA /* Assets.xcassets */; };
+		A8F456442693C43700763ADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F456432693C43700763ADA /* Preview Assets.xcassets */; };
+		A8F4564F2693C43700763ADA /* Print_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F4564E2693C43700763ADA /* Print_BookTests.swift */; };
+		A8F4565A2693C43700763ADA /* Print_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F456592693C43700763ADA /* Print_BookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8F4564B2693C43700763ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F456312693C43500763ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F456382693C43500763ADA;
+			remoteInfo = "Print Book";
+		};
+		A8F456562693C43700763ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F456312693C43500763ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F456382693C43500763ADA;
+			remoteInfo = "Print Book";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A880B9BA2693CF8F002B5964 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		A880B9C12693D18C002B5964 /* PresentationBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationBook.swift; sourceTree = "<group>"; };
+		A880B9C32693D542002B5964 /* BookItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItemCell.swift; sourceTree = "<group>"; };
+		A89D7EDF2695D1BA00D340AD /* Lora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Bold.ttf"; sourceTree = "<group>"; };
+		A89D7EE02695D1BA00D340AD /* Lora-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Medium.ttf"; sourceTree = "<group>"; };
+		A89D7EE12695D1BA00D340AD /* Lora-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Italic.ttf"; sourceTree = "<group>"; };
+		A89D7EE22695D1BA00D340AD /* Lora-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A89D7EE32695D1BA00D340AD /* Lora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Regular.ttf"; sourceTree = "<group>"; };
+		A89D7EE42695D1BA00D340AD /* Lora-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A89D7EE52695D1BA00D340AD /* Lora-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-SemiBold.ttf"; sourceTree = "<group>"; };
+		A89D7EE62695D1BA00D340AD /* Lora-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A89D7EEF2695D1C200D340AD /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		A89D7EF02695D1C200D340AD /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		A89D7EF12695D1C200D340AD /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		A89D7EF22695D1C200D340AD /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A89D7EF32695D1C200D340AD /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		A89D7EF42695D1C200D340AD /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		A89D7EF52695D1C200D340AD /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A89D7EF62695D1C200D340AD /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		A89D7EF72695D1C200D340AD /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A89D7EF82695D1C300D340AD /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A89D7F032695D24A00D340AD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A8F456392693C43500763ADA /* Print Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Print Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F4563C2693C43500763ADA /* Print_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print_BookApp.swift; sourceTree = "<group>"; };
+		A8F4563E2693C43500763ADA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8F456402693C43700763ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8F456432693C43700763ADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8F456452693C43700763ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F4564A2693C43700763ADA /* Print BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Print BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F4564E2693C43700763ADA /* Print_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print_BookTests.swift; sourceTree = "<group>"; };
+		A8F456502693C43700763ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F456552693C43700763ADA /* Print BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Print BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F456592693C43700763ADA /* Print_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print_BookUITests.swift; sourceTree = "<group>"; };
+		A8F4565B2693C43700763ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F456362693C43500763ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F456472693C43700763ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F456522693C43700763ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A880B9BE2693D151002B5964 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				A880B9C12693D18C002B5964 /* PresentationBook.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		A89D7EDC2695CFF400D340AD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A89D7EDD2695D17A00D340AD /* Lora */,
+				A89D7EDE2695D19700D340AD /* Open Sans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A89D7EDD2695D17A00D340AD /* Lora */ = {
+			isa = PBXGroup;
+			children = (
+				A89D7EDF2695D1BA00D340AD /* Lora-Bold.ttf */,
+				A89D7EE42695D1BA00D340AD /* Lora-BoldItalic.ttf */,
+				A89D7EE12695D1BA00D340AD /* Lora-Italic.ttf */,
+				A89D7EE02695D1BA00D340AD /* Lora-Medium.ttf */,
+				A89D7EE22695D1BA00D340AD /* Lora-MediumItalic.ttf */,
+				A89D7EE32695D1BA00D340AD /* Lora-Regular.ttf */,
+				A89D7EE52695D1BA00D340AD /* Lora-SemiBold.ttf */,
+				A89D7EE62695D1BA00D340AD /* Lora-SemiBoldItalic.ttf */,
+			);
+			path = Lora;
+			sourceTree = "<group>";
+		};
+		A89D7EDE2695D19700D340AD /* Open Sans */ = {
+			isa = PBXGroup;
+			children = (
+				A89D7EF02695D1C200D340AD /* OpenSans-Bold.ttf */,
+				A89D7EF22695D1C200D340AD /* OpenSans-BoldItalic.ttf */,
+				A89D7EF52695D1C200D340AD /* OpenSans-ExtraBold.ttf */,
+				A89D7EF82695D1C300D340AD /* OpenSans-ExtraBoldItalic.ttf */,
+				A89D7EF42695D1C200D340AD /* OpenSans-Italic.ttf */,
+				A89D7EF32695D1C200D340AD /* OpenSans-Light.ttf */,
+				A89D7EF12695D1C200D340AD /* OpenSans-LightItalic.ttf */,
+				A89D7EEF2695D1C200D340AD /* OpenSans-Regular.ttf */,
+				A89D7EF62695D1C200D340AD /* OpenSans-SemiBold.ttf */,
+				A89D7EF72695D1C200D340AD /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = "Open Sans";
+			sourceTree = "<group>";
+		};
+		A8F456302693C43500763ADA = {
+			isa = PBXGroup;
+			children = (
+				A8F4563B2693C43500763ADA /* Print Book */,
+				A8F4564D2693C43700763ADA /* Print BookTests */,
+				A8F456582693C43700763ADA /* Print BookUITests */,
+				A8F4563A2693C43500763ADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F4563A2693C43500763ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F456392693C43500763ADA /* Print Book.app */,
+				A8F4564A2693C43700763ADA /* Print BookTests.xctest */,
+				A8F456552693C43700763ADA /* Print BookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F4563B2693C43500763ADA /* Print Book */ = {
+			isa = PBXGroup;
+			children = (
+				A880B9BE2693D151002B5964 /* Books */,
+				A8F4563C2693C43500763ADA /* Print_BookApp.swift */,
+				A8F4563E2693C43500763ADA /* ContentView.swift */,
+				A880B9C32693D542002B5964 /* BookItemCell.swift */,
+				A8F456402693C43700763ADA /* Assets.xcassets */,
+				A8F456452693C43700763ADA /* Info.plist */,
+				A8F456422693C43700763ADA /* Preview Content */,
+				A89D7EDC2695CFF400D340AD /* Fonts */,
+				A880B9BA2693CF8F002B5964 /* UIColor+Extensions.swift */,
+				A89D7F032695D24A00D340AD /* Utils.swift */,
+			);
+			path = "Print Book";
+			sourceTree = "<group>";
+		};
+		A8F456422693C43700763ADA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A8F456432693C43700763ADA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8F4564D2693C43700763ADA /* Print BookTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F4564E2693C43700763ADA /* Print_BookTests.swift */,
+				A8F456502693C43700763ADA /* Info.plist */,
+			);
+			path = "Print BookTests";
+			sourceTree = "<group>";
+		};
+		A8F456582693C43700763ADA /* Print BookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F456592693C43700763ADA /* Print_BookUITests.swift */,
+				A8F4565B2693C43700763ADA /* Info.plist */,
+			);
+			path = "Print BookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F456382693C43500763ADA /* Print Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F4565E2693C43700763ADA /* Build configuration list for PBXNativeTarget "Print Book" */;
+			buildPhases = (
+				A8F456352693C43500763ADA /* Sources */,
+				A8F456362693C43500763ADA /* Frameworks */,
+				A8F456372693C43500763ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Print Book";
+			productName = "Print Book";
+			productReference = A8F456392693C43500763ADA /* Print Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8F456492693C43700763ADA /* Print BookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F456612693C43700763ADA /* Build configuration list for PBXNativeTarget "Print BookTests" */;
+			buildPhases = (
+				A8F456462693C43700763ADA /* Sources */,
+				A8F456472693C43700763ADA /* Frameworks */,
+				A8F456482693C43700763ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F4564C2693C43700763ADA /* PBXTargetDependency */,
+			);
+			name = "Print BookTests";
+			productName = "Print BookTests";
+			productReference = A8F4564A2693C43700763ADA /* Print BookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8F456542693C43700763ADA /* Print BookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F456642693C43700763ADA /* Build configuration list for PBXNativeTarget "Print BookUITests" */;
+			buildPhases = (
+				A8F456512693C43700763ADA /* Sources */,
+				A8F456522693C43700763ADA /* Frameworks */,
+				A8F456532693C43700763ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F456572693C43700763ADA /* PBXTargetDependency */,
+			);
+			name = "Print BookUITests";
+			productName = "Print BookUITests";
+			productReference = A8F456552693C43700763ADA /* Print BookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F456312693C43500763ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A8F456382693C43500763ADA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A8F456492693C43700763ADA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A8F456382693C43500763ADA;
+					};
+					A8F456542693C43700763ADA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A8F456382693C43500763ADA;
+					};
+				};
+			};
+			buildConfigurationList = A8F456342693C43500763ADA /* Build configuration list for PBXProject "Print Book" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8F456302693C43500763ADA;
+			productRefGroup = A8F4563A2693C43500763ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F456382693C43500763ADA /* Print Book */,
+				A8F456492693C43700763ADA /* Print BookTests */,
+				A8F456542693C43700763ADA /* Print BookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F456372693C43500763ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89D7EE72695D1BA00D340AD /* Lora-Bold.ttf in Resources */,
+				A89D7EF92695D1C300D340AD /* OpenSans-Regular.ttf in Resources */,
+				A89D7EFA2695D1C300D340AD /* OpenSans-Bold.ttf in Resources */,
+				A89D7EFD2695D1C300D340AD /* OpenSans-Light.ttf in Resources */,
+				A89D7F012695D1C300D340AD /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				A89D7EEC2695D1BA00D340AD /* Lora-BoldItalic.ttf in Resources */,
+				A89D7EEA2695D1BA00D340AD /* Lora-MediumItalic.ttf in Resources */,
+				A89D7F022695D1C300D340AD /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				A89D7EE92695D1BA00D340AD /* Lora-Italic.ttf in Resources */,
+				A89D7EED2695D1BA00D340AD /* Lora-SemiBold.ttf in Resources */,
+				A89D7EEB2695D1BA00D340AD /* Lora-Regular.ttf in Resources */,
+				A89D7EFE2695D1C300D340AD /* OpenSans-Italic.ttf in Resources */,
+				A89D7F002695D1C300D340AD /* OpenSans-SemiBold.ttf in Resources */,
+				A8F456442693C43700763ADA /* Preview Assets.xcassets in Resources */,
+				A89D7EEE2695D1BA00D340AD /* Lora-SemiBoldItalic.ttf in Resources */,
+				A89D7EFC2695D1C300D340AD /* OpenSans-BoldItalic.ttf in Resources */,
+				A8F456412693C43700763ADA /* Assets.xcassets in Resources */,
+				A89D7EFB2695D1C300D340AD /* OpenSans-LightItalic.ttf in Resources */,
+				A89D7EFF2695D1C300D340AD /* OpenSans-ExtraBold.ttf in Resources */,
+				A89D7EE82695D1BA00D340AD /* Lora-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F456482693C43700763ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F456532693C43700763ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F456352693C43500763ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F4563F2693C43500763ADA /* ContentView.swift in Sources */,
+				A880B9C42693D542002B5964 /* BookItemCell.swift in Sources */,
+				A89D7F042695D24A00D340AD /* Utils.swift in Sources */,
+				A880B9BB2693CF8F002B5964 /* UIColor+Extensions.swift in Sources */,
+				A880B9C22693D18C002B5964 /* PresentationBook.swift in Sources */,
+				A8F4563D2693C43500763ADA /* Print_BookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F456462693C43700763ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F4564F2693C43700763ADA /* Print_BookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F456512693C43700763ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F4565A2693C43700763ADA /* Print_BookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8F4564C2693C43700763ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F456382693C43500763ADA /* Print Book */;
+			targetProxy = A8F4564B2693C43700763ADA /* PBXContainerItemProxy */;
+		};
+		A8F456572693C43700763ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F456382693C43500763ADA /* Print Book */;
+			targetProxy = A8F456562693C43700763ADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A8F4565C2693C43700763ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8F4565D2693C43700763ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8F4565F2693C43700763ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Print Book/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQAVFFZSU4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Print Book/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.fernandoflorez.Print-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8F456602693C43700763ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Print Book/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQAVFFZSU4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Print Book/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.fernandoflorez.Print-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8F456622693C43700763ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQAVFFZSU4;
+				INFOPLIST_FILE = "Print BookTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.fernandoflorez.Print-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Print Book.app/Print Book";
+			};
+			name = Debug;
+		};
+		A8F456632693C43700763ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQAVFFZSU4;
+				INFOPLIST_FILE = "Print BookTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.fernandoflorez.Print-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Print Book.app/Print Book";
+			};
+			name = Release;
+		};
+		A8F456652693C43700763ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQAVFFZSU4;
+				INFOPLIST_FILE = "Print BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.fernandoflorez.Print-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Print Book";
+			};
+			name = Debug;
+		};
+		A8F456662693C43700763ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQAVFFZSU4;
+				INFOPLIST_FILE = "Print BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.fernandoflorez.Print-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Print Book";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F456342693C43500763ADA /* Build configuration list for PBXProject "Print Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F4565C2693C43700763ADA /* Debug */,
+				A8F4565D2693C43700763ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F4565E2693C43700763ADA /* Build configuration list for PBXNativeTarget "Print Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F4565F2693C43700763ADA /* Debug */,
+				A8F456602693C43700763ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F456612693C43700763ADA /* Build configuration list for PBXNativeTarget "Print BookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F456622693C43700763ADA /* Debug */,
+				A8F456632693C43700763ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F456642693C43700763ADA /* Build configuration list for PBXNativeTarget "Print BookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F456652693C43700763ADA /* Debug */,
+				A8F456662693C43700763ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8F456312693C43500763ADA /* Project object */;
+}
