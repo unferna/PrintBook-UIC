@@ -93,6 +93,12 @@ struct BookDetailView: View {
                             .resizable()
                             .frame(width: 20, height: 20, alignment: .leading)
                             .foregroundColor(.black)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .stroke(lineWidth: 2)
+                                    .foregroundColor(.white)
+                                    .frame(width: 16, height: 16, alignment: .center)
+                            )
                         
                         VStack(alignment: .leading) {
                             Text("Mothly Plan")
@@ -122,6 +128,12 @@ struct BookDetailView: View {
                             .resizable()
                             .frame(width: 20, height: 20, alignment: .leading)
                             .foregroundColor(.black)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .stroke(lineWidth: 2)
+                                    .foregroundColor(.white)
+                                    .frame(width: 16, height: 16, alignment: .center)
+                            )
                         
                         VStack(alignment: .leading) {
                             Text("Yearly Plan")
