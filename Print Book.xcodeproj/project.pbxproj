@@ -29,6 +29,7 @@
 		A89D7F012695D1C300D340AD /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EF72695D1C200D340AD /* OpenSans-SemiBoldItalic.ttf */; };
 		A89D7F022695D1C300D340AD /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A89D7EF82695D1C300D340AD /* OpenSans-ExtraBoldItalic.ttf */; };
 		A89D7F042695D24A00D340AD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D7F032695D24A00D340AD /* Utils.swift */; };
+		A8F3524E2697161C007A466A /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F3524D2697161C007A466A /* BookDetailView.swift */; };
 		A8F4563D2693C43500763ADA /* Print_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F4563C2693C43500763ADA /* Print_BookApp.swift */; };
 		A8F4563F2693C43500763ADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F4563E2693C43500763ADA /* ContentView.swift */; };
 		A8F456412693C43700763ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F456402693C43700763ADA /* Assets.xcassets */; };
@@ -77,6 +78,7 @@
 		A89D7EF72695D1C200D340AD /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		A89D7EF82695D1C300D340AD /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		A89D7F032695D24A00D340AD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A8F3524D2697161C007A466A /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
 		A8F456392693C43500763ADA /* Print Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Print Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F4563C2693C43500763ADA /* Print_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print_BookApp.swift; sourceTree = "<group>"; };
 		A8F4563E2693C43500763ADA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				A89D7EDC2695CFF400D340AD /* Fonts */,
 				A880B9BA2693CF8F002B5964 /* UIColor+Extensions.swift */,
 				A89D7F032695D24A00D340AD /* Utils.swift */,
+				A8F3524D2697161C007A466A /* BookDetailView.swift */,
 			);
 			path = "Print Book";
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				A880B9BB2693CF8F002B5964 /* UIColor+Extensions.swift in Sources */,
 				A880B9C22693D18C002B5964 /* PresentationBook.swift in Sources */,
 				A8F4563D2693C43500763ADA /* Print_BookApp.swift in Sources */,
+				A8F3524E2697161C007A466A /* BookDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

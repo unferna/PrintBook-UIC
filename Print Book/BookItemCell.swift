@@ -71,6 +71,7 @@ struct BookItemCell_Previews: PreviewProvider {
     private static let testBook = PresentationBook(
         id: UUID(),
         name: "Test Book",
+        author: "Unknown",
         stars: 3,
         reviews: 500,
         imageUrl: "imgBook1",
@@ -78,7 +79,8 @@ struct BookItemCell_Previews: PreviewProvider {
         originalPrice: 10,
         discountPrice: 7,
         isPopular: false,
-        color: .blue
+        color: .blue,
+        lastComment: ""
     )
     
     static var previews: some View {

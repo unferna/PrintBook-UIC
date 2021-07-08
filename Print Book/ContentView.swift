@@ -11,6 +11,7 @@ struct ContentView: View {
     @State var nav = false
     @State private var selectedBooksToShow: Int = 0
     var books: [PresentationBook]!
+    @State var selectedItem: PresentationBook!
     
     private let grid = [
         GridItem(.adaptive(minimum: 165, maximum: 175)),
@@ -46,10 +47,7 @@ struct ContentView: View {
             }
             .padding()
             
-            NavigationView {
-                content
-                    .navigationBarHidden(true)
-            }
+            content
             
             Spacer()
             
@@ -81,9 +79,17 @@ struct ContentView: View {
             
             LazyVGrid(columns: grid, alignment: .center) {
                  ForEach(filteredBooks, id: \.id) { book in
-                     NavigationLink(destination: EmptyView(), isActive: $nav) {
-                         BookItemCell(book: book)
-                     }.buttonStyle(PlainButtonStyle())
+                    Button(action: {
+                        nav.toggle()
+                        selectedItem = book
+                        
+                    }) {
+                        BookItemCell(book: book)
+                    }
+                    .fullScreenCover(item: $selectedItem, onDismiss: {}, content: {
+                        BookDetailView(book: $0)
+                    })
+                    .buttonStyle(PlainButtonStyle())
                  }
             }
         }
@@ -115,6 +121,7 @@ func getBooks() -> [PresentationBook] {
             PresentationBook(
                 id: UUID(),
                 name: names[i],
+                author: "Paul Hudson",
                 stars: stars,
                 reviews: Int.random(in: 1 ... 500),
                 imageUrl: "imgBook\(i + 1)",
@@ -122,7 +129,8 @@ func getBooks() -> [PresentationBook] {
                 originalPrice: price,
                 discountPrice: Float.random(in: 0 ... price - 5),
                 isPopular: stars >= 3,
-                color: getColor()
+                color: getColor(),
+                lastComment: "A great book"
             )
         )
     }
